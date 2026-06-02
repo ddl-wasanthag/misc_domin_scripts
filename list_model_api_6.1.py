@@ -15,7 +15,7 @@ import requests
 import pandas as pd
 
 # ── Config ───────────────────────────────────────────────────────────────────
-DOMINO_HOST    = os.environ.get("DOMINO_HOST", "https://wgamage73590.cs.domino.tech")
+DOMINO_HOST    = os.environ.get("DOMINO_HOST", "https://<your domino url>")
 DOMINO_API_KEY = os.environ.get("DOMINO_USER_API_KEY", "your-api-key-or-pat")
 
 if not DOMINO_HOST.startswith("http"):
